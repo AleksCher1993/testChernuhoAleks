@@ -1,0 +1,25 @@
+.user{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    padding: 1rem;
+    border-bottom: 1px solid gray;
+    cursor: pointer;
+    justify-content: space-between;
+    flex-basis: 50%;
+}
+.user:hover{
+background: rgba(141, 186, 231, 0.514);
+}
+.ava{
+    width: 40px;
+}
+.ava img{
+    width: 100%;
+}
+.name{
+    font-size: 1.4rem;
+}
+.email{
+    font-size: 1rem;
+}

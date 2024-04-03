@@ -1,0 +1,47 @@
+.formic{
+    display: flex;
+    flex-direction: column;
+    position: relative;
+}
+
+.errorMess{
+    
+    background-color: rgb(202, 75, 75);
+    padding: .3rem;
+    color: white;
+    margin-top: 0.2rem;
+}
+input {
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    width: 200px;
+    margin-bottom: .3rem;
+}
+
+input[type="email"],input[type="text"] {
+    background-color: #f9f9f9;
+}
+
+input[type="email"]:focus,input[type="text"]:focus {
+    border-color: #007bff;
+}
+
+button[type="submit"] {
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    margin-top: .3rem;
+}
+
+button[type="submit"]:hover {
+    background-color: #0056b3;
+}
+button[type="submit"]:disabled{
+    background-color: rgb(201, 201, 201);
+    cursor: default;
+}

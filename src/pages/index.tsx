@@ -1,6 +1,5 @@
 import React from "react";
+import { Main } from "./main";
 export const AppPages = () => {
-  return (
-<div>main page</div>
-  );
+  return <Main />;
 };

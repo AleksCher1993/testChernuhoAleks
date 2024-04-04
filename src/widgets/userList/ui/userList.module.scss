@@ -1,0 +1,11 @@
+.container{
+    width: 300px;
+    height: 33rem;
+    overflow: auto;
+}
+.container ul{
+    display: flex;
+    flex-direction: column;
+
+}
+.container ul li{}

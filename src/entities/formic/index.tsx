@@ -1,2 +1,0 @@
-export { CustomFormic } from "./ui";
-
